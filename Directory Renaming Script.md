@@ -33,11 +33,34 @@ Rename files.ps1
 ```
 and run with powershell where you will go through the on screen prompts.
 
-## Linux Operating system Installation
+## Ubuntu Operating system Installation
 please go to the repo and download:
-```sh
+```sh 
 Rename files.ps1
 ```
+Please check where your default browser is saving the files to, as you will need to go to the folder and extract the zip to later use this.
+
+Next please run the following to install powershell ( Note, Edit the version for your install ie. 22.04/18.04 )
+```sh
+wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+sudo apt-get update
+sudo apt-get install -y powershell
+```
+
+Now you can launch powershell from the terminal window entering:
+```sh 
+pwsh
+```
+## How to execute in Ubuntu
+launch powershell with the command above, and change directory to where the script unzipped to.
+![ubuntuexample](https://i.ibb.co/rbXMwD9/ubuntu-example.png)
+
+To execute, run the following, and go through the prompts on screen.
+```sh
+./rename_files.ps1
+```
+
 
 ## Mac Operating system Installation
 please go to the repo and download:
