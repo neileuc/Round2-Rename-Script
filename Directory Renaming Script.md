@@ -1,7 +1,5 @@
 # Directory Renaming Script
->> Author, Neil Chamberlain Urwin
-Portsmouth Onsite Support
-022 050 4722
+>> Author, Neil Chamberlain Urwin - Portsmouth Onsite Support - Nurwin@wetafx.co.nz - 022 050 4722
  
 ## Purpose:
 This script has been made in order to rename files within a directory with like named files, with a new name and with correct number sequencing.
@@ -23,7 +21,7 @@ Rename files.ps1
 ```
 ## How to execute on windows
 Please go to where your the files have downloaded, typically under downloads - C:\Users\%USER%\Downloads
-Right click the Set execution script and run with power shell, when prompted, enter:
+Right click the **Set execution** script and run with power shell, when prompted, enter:
 ```sh
 Unrestricted
 ```
@@ -31,6 +29,7 @@ This is so you can execute the script due to it not being a signed installion, Y
 ```sh 
 Rename files.ps1
 ```
+![windows run](https://i.ibb.co/9VXLWZB/windows.png)
 and run with powershell where you will go through the on screen prompts.
 
 ## Ubuntu Operating system Installation
@@ -40,7 +39,8 @@ Rename files.ps1
 ```
 Please check where your default browser is saving the files to, as you will need to go to the folder and extract the zip to later use this.
 
-Next please run the following to install powershell ( Note, Edit the version for your install ie. 22.04/18.04 )
+Next please run the following to install powershell **( Note, Edit the version for your install ie. 22.04/18.04 )**
+Open **Terminal**
 ```sh
 wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
@@ -67,6 +67,12 @@ please go to the repo and download:
 ```sh
 Rename files.ps1
 ```
+Please check where your default browser is saving the files to, as you will need to go to the folder and extract the zip to later use this.
+
+Next please run the following to install powershell **( Note, Edit the version for your install ie. 22.04/18.04 )**
+```sh
+
+```
 
 ## Developers
-please open the script with powershell ISE and you will see each block is commented for breaking down each procedure.
+please open the script with your preffered editor or powershell ISE and you will see each block is commented for breaking down each procedure.
