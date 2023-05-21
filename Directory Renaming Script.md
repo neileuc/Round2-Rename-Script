@@ -83,7 +83,22 @@ In powershell navigate to where the rename script.ps1 is located and execute lik
 ```
 
 ## Explaining the Script
+1. The script works on the simple principle of first, warning and informing the user of what the script will do and if neccesary how to exit at any time.
 
+![script](https://i.ibb.co/SwjNg5Q/SCRIPT.png)
+2. It will then ask the user to enter a Filepath.
+3. Then asking for the start of the old filename.
+4. then asking for the old filetype
+
+5. It will now ask for the new name to be given to the files in step 3
+6. and confirm with the user the file type of the new file.
+7. once commited the script will run and close out
+
+Before
+![before](https://i.ibb.co/R7Sk5Mb/BEFORE.png)
+After
+![after](https://i.ibb.co/fGbydm6/AFTER.png)
+Key note, this will not touch like named, but different filetype files.
 
 ## Developers
 please open the script with your preffered editor or powershell ISE and you will see each block is commented for breaking down each procedure.
