@@ -69,10 +69,21 @@ Rename files.ps1
 ```
 Please check where your default browser is saving the files to, as you will need to go to the folder and extract the zip to later use this.
 
-Next please run the following to install powershell **( Note, Edit the version for your install ie. 22.04/18.04 )**
-```sh
+Navigate to [Powershell for mac](https://github.com/PowerShell/PowerShell) scroll down to the readme section. Click on the install package for your macOS Version - **Download the Stable .Pkg version**
+![mac .pkg](https://i.ibb.co/T1x33Vj/mac.png)
 
+Open the .pkg (should be in your dock bouncing) and accept default inputs
+
+Open spotlight/search and search for **powershell**
+![mac spot](https://i.ibb.co/BwHx8CG/spotlight.png)
+In powershell navigate to where the rename script.ps1 is located and execute like so:
+![mac script](https://i.ibb.co/tX9h7Wc/Mac-script.png)
+```sh
+./rename files.ps1
 ```
+
+## Explaining the Script
+
 
 ## Developers
 please open the script with your preffered editor or powershell ISE and you will see each block is commented for breaking down each procedure.
