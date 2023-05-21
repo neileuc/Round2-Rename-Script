@@ -1,5 +1,5 @@
 # Directory Renaming Script
->> Author, Neil Chamberlain Urwin - Portsmouth Onsite Support - Nurwin@wetafx.co.nz - 022 050 4722
+>> Author, Neil Chamberlain Urwin - Portsmouth Onsite Support 
  
 ## Purpose:
 This script has been made in order to rename files within a directory with like named files, with a new name and with correct number sequencing.
